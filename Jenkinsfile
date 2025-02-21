@@ -11,7 +11,7 @@ pipeline {
 
         stage('GIT') {
             steps {
-                git branch: 'main', url: 'https://github.com/JdidiMelekEsprit/timesheet-devops.git'
+                git branch: 'main', url: 'https://github.com/JdidiMelekEsprit/timsheet-devops.git'
             }
         }
 
